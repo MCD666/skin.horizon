@@ -130,7 +130,7 @@
                                     <width>auto</width>
                                     <textcolor>main_fg_70</textcolor>
                                     <font>font_tiny</font>
-                                    <label>$INFO[MusicPlayer.BitRate,, [COLOR=main_fg_30]kbps [/COLOR]]$INFO[MusicPlayer.BitsPerSample,[COLOR=main_fg_30]  |  [/COLOR], [COLOR=main_fg_30]bps [/COLOR]]$INFO[MusicPlayer.SampleRate,[COLOR=main_fg_30]  |  [/COLOR], [COLOR=main_fg_30]khz[/COLOR]]</label>
+                                    <label>$INFO[MusicPlayer.BitRate,, [COLOR=main_fg_30]kbps [/COLOR]]$INFO[MusicPlayer.BitsPerSample,[COLOR=main_fg_30]  |  [/COLOR], [COLOR=main_fg_30]bit [/COLOR]]$INFO[MusicPlayer.SampleRate,[COLOR=main_fg_30]  |  [/COLOR], [COLOR=main_fg_30]khz[/COLOR]]</label>
                                 </control>
                             </control>
                             <control type="group">
@@ -300,7 +300,7 @@
                                 <width>auto</width>
                                 <textcolor>main_fg_70</textcolor>
                                 <font>font_tiny</font>
-                                <label>$INFO[MusicPlayer.BitRate,, [COLOR=main_fg_30]kbps   |   [/COLOR]]$INFO[MusicPlayer.BitsPerSample,, [COLOR=main_fg_30]bps   |   [/COLOR]]$INFO[MusicPlayer.SampleRate,, [COLOR=main_fg_30]khz   |  [/COLOR]]</label>
+                                <label>$INFO[MusicPlayer.BitRate,, [COLOR=main_fg_30]kbps   |   [/COLOR]]$INFO[MusicPlayer.BitsPerSample,, [COLOR=main_fg_30]bit   |   [/COLOR]]$INFO[MusicPlayer.SampleRate,, [COLOR=main_fg_30]khz   |  [/COLOR]]</label>
                             </control>
                             <control type="image" id="9968">
                                 <width>84</width>
