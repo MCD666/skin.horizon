@@ -223,7 +223,7 @@
     </variable>
 
     <variable name="Label_NumPages">
-        <value condition="!String.IsEqual(Container.NumPages,0) + !String.IsEmpty(Container.NumPages) + !Container.IsUpdating">[COLOR=$VAR[ColorHighlight]]$INFO[Container.CurrentPage,,[/COLOR] $LOCALIZE[20163] ][COLOR=$VAR[ColorHighlight]]$INFO[Container.NumPages,,[/COLOR] $LOCALIZE[31243]]</value>
+        <value condition="!String.IsEqual(Container.NumPages,0) + !String.IsEmpty(Container.NumPages) + !Container.IsUpdating">[COLOR=$VAR[ColorHighlight]]$INFO[Container.CurrentPage,,[/COLOR] $LOCALIZE[20163] ][COLOR=$VAR[ColorHighlight]]$INFO[Container.NumPages,,[/COLOR] ]</value>
         <value condition="!String.IsEqual(Container(50).NumPages,0) + !String.IsEmpty(Container(50).NumPages) + !Container(50).IsUpdating">[COLOR=$VAR[ColorHighlight]]$INFO[Container(50).CurrentPage,,[/COLOR] $LOCALIZE[20163] ][COLOR=$VAR[ColorHighlight]]$INFO[Container(50).NumPages,,[/COLOR] $LOCALIZE[31243]]</value>
     </variable>
 
