@@ -44,8 +44,8 @@
                     <control type="group">
                         <bottom>58</bottom>
                         <left>64</left>
-                        <width>206</width>
-                        <height>206</height>
+                        <width>350</width>
+                        <height>350</height>
                         <control type="group">
                             <left>-6</left>
                             <right>-6</right>
@@ -60,7 +60,7 @@
                     </control>
                     <control type="grouplist">
                         <bottom>48</bottom>
-                        <left>308</left>
+                        <left>458</left>
                         <right>64</right>
                         <height>234</height>
                         <orientation>vertical</orientation>
@@ -68,8 +68,9 @@
                         <itemgap>0</itemgap>
                         <control type="label">
                             <label>$INFO[Player.Title]</label>
-                            <height>90</height>
+                            <height>110</height>
                             <aligny>top</aligny>
+                            <top>-20</top>
                             <textcolor>main_fg_100</textcolor>
                             <font>font_showcase_title</font>
                         </control>
