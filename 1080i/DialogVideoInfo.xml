@@ -151,7 +151,11 @@
                             <param name="itemwidth" value="567" />
                             <param name="episodelayout" value="true" />
                         </include>
+<<<<<<< HEAD
                         <content limit="3" sortby="playcount" sortorder="ascending">videodb://tvshows/$INFO[ListItem.DBID]/-2/?tvshowid=$INFO[ListItem.DBID]</content>
+=======
+                        <content limit="3" sortby="playcount" sortorder="ascending">videodb://inprogresstvshows/$INFO[ListItem.DBID]/-2/?tvshowid=$INFO[ListItem.DBID]</content>
+>>>>>>> 41a7d91937d8b7a76e53437b7cdf50ce38334052
                     </control>
                     <include content="Dialog_VideoInfo_BusyIndicator">
                         <param name="id" value="9501" />

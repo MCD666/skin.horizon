@@ -52,7 +52,7 @@
                 <include>Dialog_Standard_Right_Buttons</include>
                 <visible>$PARAM[visible]</visible>
                 <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
-                <visible>!String.IsEqual(Container(211).ListItem.Property(widget),Weather)</visible>
+                <visible>!String.IsEqual(Container(211).ListItem.Property(widget),Weather) + !String.IsEqual(Container(211).ListItem.Property(widget),Settings)</visible>
                 <onfocus>SetProperty(WidgetName,WidgetName.Widget$PARAM[num])</onfocus>
                 <onfocus>SetProperty(WidgetSort,WidgetSort.Widget$PARAM[num])</onfocus>
                 <onfocus>SetProperty(WidgetDirection,WidgetDirection.Widget$PARAM[num])</onfocus>
@@ -203,7 +203,7 @@
     <include name="Defs_Settings_Button">
         <align>left</align>
         <font>font_small</font>
-        <radioposx>1310</radioposx>
+        <radioposx>1318</radioposx>
         <textcolor>main_fg_100</textcolor>
         <disabledcolor>main_fg_12</disabledcolor>
         <height>77</height>
@@ -218,7 +218,7 @@
         <alttexturefocus colordiffuse="$VAR[Defs_Settings_ColorHighlight]">common/gradient-diffuse-horizontal.png</alttexturefocus>
     </include>
     <variable name="Defs_Settings_ColorHighlight">
-        <value condition="Control.HasFocus(300) | Control.HasFocus(302) | Control.HasFocus(20)">00ffffff</value>
+        <value condition="Control.HasFocus(3901) | Control.HasFocus(3902) | Control.HasFocus(3903) | Control.HasFocus(300) | Control.HasFocus(302) | Control.HasFocus(20)">00ffffff</value>
         <value>$VAR[ColorHighlight2]</value>
     </variable>
 
